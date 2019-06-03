@@ -1,0 +1,36 @@
+// onesignal , a estrutura da applicação esta a partir de DATA dentro da tag data criar outro atributo DATA que é o corpo da applicação json
+
+{
+    "app_id" : "234485dsfija98e85r2348",
+    "filter" : [
+        {
+            "field": "tag",
+            "key": "iduser",
+            "relation": "=",
+            "value": "10"
+        },
+        {
+            "operator": "AND"
+        },
+        {
+            "field": "tag",
+            "key": "iddevice",
+            "relation": "=",
+            "value": "aisjdfioju34rj"
+        }
+    ],
+    "data" : {
+        "type" : "payment",
+        "data" : {
+            "user" : {
+                "id" : 1,
+                "name" : "maicon",
+                "user_client" : {
+                    "tutoo_digital_account" : {
+                        "amount" : 0
+                    }
+                }
+            }
+        }
+    }
+}
